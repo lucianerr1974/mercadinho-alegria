@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Mercadinho Alegria | Cadastro</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="topo"><a class="logo" href="index.html"><span class="logo-emoji">🛒</span> Mercadinho <b>Alegria</b></a><nav aria-label="Navegação principal"><a href="index.html">Início</a><a href="produtos.html">Produtos</a><a href="ofertas.html">Ofertas</a><a href="sobre.html">Sobre nós</a><a class="nav-cadastro ativo-botao" href="cadastro.html">Cadastre-se</a></nav></header>
+<main class="pagina cadastro-pagina">
+  <section class="cadastro-layout"><div class="cadastro-chamada"><span class="sobretitulo">VEM COM A GENTE!</span><h1>Cadastro cheio de <span>vantagens.</span> 🎈</h1><p>Preencha seus dados para fazer parte da turma do Mercadinho Alegria e acompanhar nossas novidades.</p><div class="mini-beneficios"><p>✅ Fique por dentro das ofertas</p><p>✅ Receba novidades do mercado</p><p>✅ Tudo simples e rapidinho</p></div><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=85" alt="Frutas e verduras coloridas"></div>
+    <form class="form-cadastro" id="form-cadastro">
+      <h2>Crie seu cadastro</h2><p class="texto-form">Os campos com * são obrigatórios.</p>
+      <label for="nome">Nome completo *</label><input id="nome" name="nome" type="text" placeholder="Como podemos te chamar?" required minlength="3">
+      <label for="email">E-mail *</label><input id="email" name="email" type="email" placeholder="voce@exemplo.com" required>
+      <label for="telefone">Telefone</label><input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000">
+      <label for="senha">Crie uma senha *</label><input id="senha" name="senha" type="password" placeholder="Mínimo de 6 caracteres" required minlength="6">
+      <label class="check-linha"><input id="novidades" type="checkbox"> Quero receber novidades e ofertas por e-mail.</label>
+      <button class="botao botao-roxo botao-form" type="submit">Finalizar cadastro ✨</button>
+      <p id="mensagem-cadastro" class="mensagem-form" role="status" aria-live="polite"></p>
+      <p class="aviso-privacidade">Demonstração escolar: os dados não são enviados para um servidor nem ficam salvos após fechar a página. Não use uma senha real.</p>
+    </form>
+  </section>
+</main>
+<footer><span>🛒 Mercadinho Alegria</span><span>Seus dados devem ser tratados com responsabilidade.</span></footer><script src="script.js"></script>
+</body></html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mercadinho Alegria | Produtos</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo"><a class="logo" href="index.html"><span class="logo-emoji">🛒</span> Mercadinho <b>Alegria</b></a>
+    <nav aria-label="Navegação principal"><a href="index.html">Início</a><a class="ativo" href="produtos.html">Produtos</a><a href="ofertas.html">Ofertas</a><a href="sobre.html">Sobre nós</a><a class="nav-cadastro" href="cadastro.html">Cadastre-se</a></nav>
+  </header>
+  <main class="pagina">
+    <div class="cabecalho-pagina"><span class="sobretitulo">QUALIDADE E VARIEDADE</span><h1>Nossos <span>produtos</span> 🥑</h1><p>Escolha seus favoritos e monte uma compra cheia de coisas boas.</p></div>
+    <div class="filtros"><label for="busca">🔎 Buscar produto</label><input id="busca" type="search" placeholder="Ex.: maçã, leite, pão..."><span id="contador" class="contador">6 produtos</span></div>
+    <section class="grade-produtos" id="lista-produtos">
+      <article class="produto" data-nome="maçã vermelha"><img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=700&q=85" alt="Maçãs vermelhas frescas"><div class="produto-info"><span class="tag tag-verde">Hortifruti</span><h2>Maçã vermelha</h2><p>Docinha e crocante</p><strong>R$ 6,99 <small>/ kg</small></strong></div></article>
+      <article class="produto" data-nome="banana"><img src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?auto=format&fit=crop&w=700&q=85" alt="Bananas amarelas"><div class="produto-info"><span class="tag tag-verde">Hortifruti</span><h2>Banana</h2><p>Energia para o seu dia</p><strong>R$ 4,49 <small>/ kg</small></strong></div></article>
+      <article class="produto" data-nome="leite integral"><img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=700&q=85" alt="Leite em uma jarra"><div class="produto-info"><span class="tag tag-rosa">Laticínios</span><h2>Leite integral</h2><p>Bom para toda a família</p><strong>R$ 5,29 <small>/ litro</small></strong></div></article>
+      <article class="produto" data-nome="pão artesanal"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=85" alt="Pães recém-assados"><div class="produto-info"><span class="tag tag-amarela">Padaria</span><h2>Pão artesanal</h2><p>Casquinha crocante</p><strong>R$ 12,90 <small>/ unidade</small></strong></div></article>
+      <article class="produto" data-nome="morango"><img src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=700&q=85" alt="Morangos vermelhos frescos"><div class="produto-info"><span class="tag tag-verde">Hortifruti</span><h2>Morango</h2><p>Perfeito para sobremesas</p><strong>R$ 8,90 <small>/ bandeja</small></strong></div></article>
+      <article class="produto" data-nome="suco de laranja"><img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=700&q=85" alt="Suco de laranja natural"><div class="produto-info"><span class="tag tag-azul">Bebidas</span><h2>Suco de laranja</h2><p>Refrescante e saboroso</p><strong>R$ 7,50 <small>/ litro</small></strong></div></article>
+    </section>
+    <p id="sem-resultados" class="mensagem-vazia" hidden>Nenhum produto encontrado. Tente outra palavra. 😊</p>
+  </main>
+  <footer><span>🛒 Mercadinho Alegria</span><span>Preços ilustrativos para o projeto escolar.</span></footer>
+  <script src="script.js"></script>
+</body></html>
